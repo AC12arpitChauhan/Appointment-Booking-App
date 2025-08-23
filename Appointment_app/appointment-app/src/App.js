@@ -32,13 +32,16 @@ function App() {
     },
   });
 
+  // Backend API URL
+  const API_BASE = process.env.REACT_APP_API_URL || "http://localhost:5001";
+
   // Fetch appointments from backend
   useEffect(() => {
     axios
-      .get("http://localhost:5001/api/bookings")
+      .get(`${API_BASE}/api/bookings`)
       .then((res) => setAppointments(res.data))
       .catch((err) => console.error(err));
-  }, []);
+  }, [API_BASE]);
 
   // Book appointment
   const handleSubmit = async (e) => {
@@ -46,7 +49,7 @@ function App() {
     if (!title || !email || !date) return alert("Please fill all fields");
 
     try {
-      const res = await axios.post("http://localhost:5001/api/bookings", {
+      const res = await axios.post(`${API_BASE}/api/bookings`, {
         title,
         email,
         date,
