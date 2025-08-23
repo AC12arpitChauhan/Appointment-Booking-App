@@ -50,7 +50,6 @@ Appointment-Booking-App/
 1. Navigate to the `server/` directory:
    ```bash
    cd server
-````
 
 2. Copy `.env.example` to `.env` and fill in the required values:
 
@@ -140,10 +139,6 @@ Contributions are welcome! Here’s how you can help:
 ## License
 
 This project is available under the **MIT License**.
-
----
-
-```
 
 ---
 
