@@ -1,8 +1,4 @@
-Here’s a polished and comprehensive **README.md** tailored for your **Appointment Booking App** repository. It covers both your frontend and backend, making it clear, easy to follow, and ready for deployment.
 
----
-
-```markdown
 # Appointment Booking App
 
 A full-stack web application for scheduling and managing appointments. Built with a React frontend and an Express.js backend, this app uses MongoDB as its database and has been deployed on Render and Vercel.
@@ -147,10 +143,6 @@ This project is available under the **MIT License**.
 
 ---
 
-## Contact
-
-Created with care by Riyansh. Feel free to reach out if you need help or want to collaborate!
-
 ```
 
 ---
@@ -162,6 +154,4 @@ Created with care by Riyansh. Feel free to reach out if you need help or want to
 -  **Deployment details**: Covers Render and Vercel configurations explicitly.
 -  **Professional**: Encourages collaboration, includes license and contact info.
 
-Let me know if you'd like to add screenshots, project badges, setup for testing, or anything else!
-::contentReference[oaicite:0]{index=0}
-```
+
