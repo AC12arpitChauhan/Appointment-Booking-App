@@ -33,7 +33,7 @@ function App() {
   });
 
   // Backend API URL
-  const API_BASE = process.env.REACT_APP_API_URL || "http://localhost:5001";
+  const API_BASE = "https://appointment-booking-app-v9za.onrender.com";
 
   // Fetch appointments from backend
   useEffect(() => {
