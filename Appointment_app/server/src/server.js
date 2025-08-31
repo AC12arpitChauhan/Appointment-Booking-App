@@ -9,7 +9,7 @@ app.use(express.json());
 
 // MongoDB Connection
 mongoose
-  .connect("mongodb://127.0.0.1:27017/booking_app", {
+  .connect("mongodb+srv://arpitchauhanac07:arpitmahak123@cluster0.nwxr7f8.mongodb.net/booking_app", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
